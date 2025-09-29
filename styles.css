@@ -68,3 +68,16 @@ img {
     font-size: 14px;
     text-align: justify;
 }
+
+.Like:hover {
+    color: red;
+    font-size: 30px;
+}
+
+.Save:hover {
+    color: goldenrod;
+}
+
+.Options:hover {
+    cursor: pointer;
+}
