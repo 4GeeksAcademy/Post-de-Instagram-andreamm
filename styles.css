@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+}
+
+.Post {
+    background-color: white;
+    position: absolute;
+    margin-top: 50px;
+    height: 550px;
+    width: 400px;
+}
+
+.ProfilePicture {
+    margin: 5px;
+    font-size: 30px;
+    color: gray;
+}
+
+.Header {
+    display: flex;
+}
+
+.Header p {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.Header b {
+    font-size: 15px;
+}
+
+.Options {
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+img {
+    width: 400px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.Icons {
+    display: flex;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.Save {
+    margin-left: auto;
+}
+
+.Description p:first-of-type {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.Description p:nth-of-type(2) {
+    margin: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: justify;
+}
